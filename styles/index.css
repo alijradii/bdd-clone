@@ -25,8 +25,7 @@ nav {
   padding: 40px 0;
   width: 100vw;
   height: 6rem;
-  background-color: rgb(0, 0, 0);
-  opacity: 90%;
+  background-color: rgba(0, 0, 0, 0.7);
 
   display: flex;
   justify-content: space-between;
@@ -81,4 +80,15 @@ nav ul li a {
   padding: 0.8rem;
   text-transform: uppercase;
   opacity: 100%;
+}
+
+section {
+
+}
+
+h1 {
+    font-family: TheMixBlackCaps;
+    font-size: 50px;
+    color: white;
+    text-align: center;
 }
