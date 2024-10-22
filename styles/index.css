@@ -1,0 +1,15 @@
+@font-face {
+    font-family: TheMixBlackCaps;
+    src: url("../assets/fonts/TheMix-9-BlackCaps.otf") format("opentype");
+}
+
+@font-face {
+    font-family: TheMixSemiBoldPlain;
+    font-weight: bold;
+    src: url("../assets/fonts/TheMixSemiBold-Plain.otf") format("opentype");
+}
+
+* {
+    font-family: TheMixBlackCaps;
+    font-size: 18px;
+}
