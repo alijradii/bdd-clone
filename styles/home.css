@@ -1,3 +1,8 @@
+section {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
 .hero-section {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../assets/images/slides/slide1.jpg");
@@ -87,7 +92,7 @@
 }
 
 .download-app {
-  margin-bottom: 40px;
+  margin: 40px;
 }
 .download-app p {
   text-align: center;
@@ -107,32 +112,58 @@
 }
 
 .community-cards {
+  flex-basis: 100%;
+  flex-wrap: nowrap
 }
 
 .community-image {
-  flex: 10;
+  max-width: 400px;
 }
-
-.community-card h2 {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.community-card span {
-  color: rgb(100, 100, 100);
-  font-size: 16px;
-  padding: 10px;
-  flex-shrink: 1;
+.community-image > img {
 }
 
 .community-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
   border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
+  padding: 5px;
+  flex: 1 1 0;
+  max-width: 20%;
+}
+
+.community-card h2 {
+  overflow-wrap: break-word;
+  font-size: 20px;
+  font-weight: 600;
+  overflow: wrap;
+  margin-bottom: 16px;
+  padding-bottom: 0px;
+}
+
+.community-card p {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  margin: 0px 32px 16px 32px;
 }
 
 .community-card:hover {
   box-shadow: 0 0 20px 5px rgba(100, 100, 100, 0.2);
+}
+
+.community-card a {
+  padding: 10px 20px;
+  margin: 20px 40px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  align-self: center;
+  width: 90%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: auto;
+  font-size: 15px;
 }
 
 .achievements-section {
@@ -179,14 +210,20 @@
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 300;
-  margin: 0 40px;
+  margin: 0 20px;
   text-align: center;
   max-width: 20rem;
+  color: rgb(80, 80, 80);
+  letter-spacing: 3px;
 }
 
 .trending-section {
   background-color: rgb(220, 220, 220);
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.trending-section .gap {
+  gap: 20px;
 }
 
 .trending-card {
@@ -209,26 +246,30 @@
   max-width: 70%;
   font-size: 20px;
   color: rgb(30, 30, 30);
-  border-bottom: 1px solid rgb(80, 80, 80);
   padding-bottom: 20px;
   margin-bottom: 15px;
 }
 
+.trending-card .divider {
+  width: 90%;
+  border-bottom: 1px solid rgb(80, 80, 80);
+  margin-bottom: 20px;
+}
+
 .trending-card span {
-  padding: 0 60px;
-  width: 100%;
+  width: 70%;
   text-align: left;
   color: rgb(80, 80, 80);
 }
 
 .testimonies-section {
-    margin-top: 30px;
-    padding: 30px;
-    background-color: white;
+  margin-top: 30px;
+  padding: 30px;
+  background-color: white;
 }
 
 .testimonies img {
-    width: 18rem;
-    height: auto;
-    margin: 10px;
+  width: 18rem;
+  height: auto;
+  margin: 10px;
 }
