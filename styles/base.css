@@ -1,3 +1,7 @@
 .primary {
     background-color: rgb(0, 120, 190);
 }
+
+.text-dark {
+    color: rgb(33, 33, 33)
+}

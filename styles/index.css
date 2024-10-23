@@ -92,3 +92,12 @@ h1 {
     color: white;
     text-align: center;
 }
+
+h2 {
+    font-family: TheMixBlackCaps;
+    text-transform: uppercase;
+    font-size: 32px;
+    padding: 40px;
+    text-align: center;
+    font-weight: 600;
+}
