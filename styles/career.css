@@ -60,7 +60,7 @@ h3 {
     flex-direction: column;
 }
 
-.career-section a {
+.button {
     color: white;
     background-color: rgb(0, 120, 190);
     margin: auto;
@@ -117,4 +117,9 @@ h3 {
 .details-container h3 {
     text-align: left;
     margin: 0;
+}
+
+.details-container a {
+    margin: 20px;
+    width: fit-content
 }
