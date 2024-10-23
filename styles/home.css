@@ -185,7 +185,8 @@
 }
 
 .trending-section {
-  background-color: (245, 245, 245);
+  background-color: rgb(220, 220, 220);
+  padding-bottom: 20px;
 }
 
 .trending-card {
@@ -218,4 +219,16 @@
   width: 100%;
   text-align: left;
   color: rgb(80, 80, 80);
+}
+
+.testimonies-section {
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+}
+
+.testimonies img {
+    width: 18rem;
+    height: auto;
+    margin: 10px;
 }
