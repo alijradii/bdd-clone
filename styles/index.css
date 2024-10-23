@@ -102,3 +102,59 @@ h2 {
     text-align: center;
     font-weight: 600;
 }
+
+footer {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(33, 33, 33);
+}
+
+footer h2 {
+    padding: 10px;
+    color: rgb(182, 182, 182); 
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+footer h3 {
+    font-size: 16px;
+    margin-top: 30px;
+    color: rgb(100, 100, 100);
+}
+
+footer p {
+    margin: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+footer span {
+    color: rgb(157, 157, 157);
+    font-size: 12px;
+}
+
+footer .gap {
+    gap: 20px;
+}
+
+footer .download-app {
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+footer .download-app a {
+  width: 180px;
+  margin: 10px;
+}
+
+footer .social-media-icons {
+    margin-right: 20px;
+}
+
+footer .social-media-icons img{
+    width: 16px;
+    height: 16px;
+    margin: 8px;
+}
