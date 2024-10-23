@@ -1,11 +1,16 @@
 .flex {
-    display: flex;
+  display: flex;
 }
 
 .flex-col {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.width100 {
+    width: 100%;
+    height: auto;
 }
