@@ -11,8 +11,13 @@
 }
 
 .flex-grow {
-    flex: 4;
+    flex: 1;
 }
+
+.flex-grow-2 {
+    flex: 2;
+}
+
 
 .justify-space-around {
     justify-content: space-around;
@@ -34,7 +39,15 @@
     align-items: center;
 }
 
+.flex-align-left {
+    align-items: left;
+}
+
 .width100 {
     width: 100%;
     height: auto;
+}
+
+.m20 {
+    margin: 20px;
 }
