@@ -73,3 +73,48 @@ h3 {
     text-align: center;
     text-transform: uppercase;
 }
+
+.internship-section {
+    padding: 0;
+}
+
+.internship-section-container {
+    display: flex;
+    flex-basis: 1;
+}
+
+.internship-section img {
+    object-fit: contain;
+}
+
+.details-container {
+    width: 100%;
+    padding: 60px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.details-container h1 {
+    color: rgb(0, 120, 190);
+    font-size: 13px;
+    font-family: TheMixSemiBoldPlain;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 0;
+    margin: 0;
+}
+.details-container h2 {
+    font-size: 32px;
+    color: rgb(33, 33, 33);
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.details-container h3 {
+    text-align: left;
+    margin: 0;
+}
