@@ -123,3 +123,16 @@ h3 {
     margin: 20px;
     width: fit-content
 }
+
+.testimonies-section {
+    padding: 0;
+    display: flex;
+    flex-basis: 1;
+}
+
+.testimonies-section>div {
+    width: 100%;
+    flex-grow: 1;
+    background-color: red;
+    min-height: 400px;
+}
