@@ -1,0 +1,75 @@
+section {
+    padding: 50px;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../assets/images/internship-banner.jpg");
+    
+    height: 420px;
+}
+
+h2 {
+    margin: 3px;
+    margin-bottom: 0;
+    padding: 0px;
+}
+
+h3 {
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 0;
+    padding: 0;
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+    text-align: center;
+
+    max-width: 800px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex: 1 1 0;
+}
+
+.card {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(80, 80, 80, 0.2);
+}
+
+.card h1 {
+    color: rgb(224, 224, 224);
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.card h2 {
+    font-size: 20px;
+    color: rgb(33, 33, 33)
+}
+
+.card h3 {
+    font-size: 18px;
+}
+
+.career-section main {
+    display: flex;
+    flex-direction: column;
+}
+
+.career-section a {
+    color: white;
+    background-color: rgb(0, 120, 190);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
